@@ -1,0 +1,75 @@
+.html{
+    font-family: 'Viga', sans-serif;
+}
+
+.navbar-brand , .nav-link {
+    color: white;
+}
+
+.text , .h1{
+    color : green;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-family: 'Viga', sans-serif;
+}
+
+.card{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.card1{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.cards:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid green ;
+}
+
+.img-thumbnail{
+    margin-left:30px ;
+    margin-top: -15px;
+    border-radius: 100%;
+    width: 182px;
+    height: 190px;
+    outline: 2px coral;
+}
+
+.offcanvas-header{
+    
+    margin-left: 65px;
+
+}
+.profile1{
+    
+    margin-left: 85px;
+    margin-top: 10px;
+
+}
+
+@media (min-width: 992px) {
+    
+    .cards{
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+
+    .card1{
+        margin-left: 260px;
+        margin-top: -470px;
+    }
+
+    .text , .h1{
+        color : green;
+        margin-left: 17.5cm;
+        margin-top: 20px;
+        font-family: 'Viga', sans-serif;
+    }
+
+    .img-thumbnail{
+
+        opacity: 0%;
+    }
+}
